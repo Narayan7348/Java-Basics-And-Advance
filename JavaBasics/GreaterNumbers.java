@@ -8,11 +8,9 @@ public class GreaterNumbers {
         int b = sc.nextInt();
         if(a > b){
             System.out.println("First number is greater: " + a);
-        } else if(b > a) {
+        } else  {
             System.out.println("Second number is greater: " + b);
-        } else {
-            System.out.println("Both numbers are equal: " + a);
-        }
+        }  
     }
     
 }
